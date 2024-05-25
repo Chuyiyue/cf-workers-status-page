@@ -34,14 +34,9 @@ monitors:
 
   - id: tg-dc-5
     name: Telegram DC5
-    url: 'http://91.108.56.149/'
+    url: 'https://dc5.dns.telegram.org/'
     method: GET
     expectStatus: 200
 
-      - id: tg-dc-5
-    name: Telegram DC5
-    url: 'http://91.108.56.149'
-    method: PING
-    expectStatus: 200
 
     
