@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Bula Status Page'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -40,8 +40,8 @@ monitors:
 
       - id: tg-dc-5
     name: Telegram DC5
-    url: '91.108.56.149'
-    method: GET
+    url: 'http://91.108.56.149'
+    method: PING
     expectStatus: 200
 
     
