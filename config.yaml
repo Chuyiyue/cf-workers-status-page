@@ -37,6 +37,19 @@ monitors:
     url: 'https://dc5.dns.telegram.org/'
     method: GET
     expectStatus: 200
+    
+ - id: openAI-API
+    name: openAI-API
+    url: 'https://api.openai.com/'
+    method: GET
+    expectStatus: 200
+
+     - id: ChatGPT
+    name: ChatGPT
+    url: 'https://chatgpt.com/'
+    method: GET
+    expectStatus: 200
+
 
 
     
